@@ -2,10 +2,6 @@
 // Open the above URL in browser and open developer tools, copy paste the below code and hit enter.
 // Note: Please change while condition from 10 to 1Lakh.
 
-function getRandomNumber(lengthArray) {
-  return Math.floor(Math.random() * lengthArray);
-}
-
 const names = {
   fNames: [
     'Saanvi',
@@ -121,16 +117,6 @@ const names = {
     'Purohit',
   ],
 };
-
-function getMailId(firstname, lastname, differentiator) {
-  return firstname + '.' + lastname + differentiator + '@gmail.com';
-}
-
-function getPhoneNumber(differentiator) {
-  return (
-    differentiator + Math.floor(Math.random() * (100000 - 999999) + 999999)
-  );
-}
 
 const blorePincodes = [
   '560004',
@@ -638,6 +624,21 @@ const blorePincodes = [
   '562123',
 ];
 
+
+function getMailId(firstname, lastname, differentiator) {
+  return firstname + '.' + lastname + differentiator + '@gmail.com';
+}
+
+function getPhoneNumber(differentiator) {
+  return (
+    differentiator + Math.floor(Math.random() * (100000000 - 999999999) + 999999999)
+  );
+}
+
+function getRandomNumber(lengthArray) {
+  return Math.floor(Math.random() * lengthArray);
+}
+
 function getRandomUser() {
   let formData = new FormData();
   const fName = names.fNames[getRandomNumber(names.fNames.length)];
@@ -650,7 +651,7 @@ function getRandomUser() {
     'rsign[firstname]': fName,
     'rsign[lastname]': lName,
     'rsign[country]': 'in',
-    'rsign[phone]': getPhoneNumber(Math.random().toFixed(4) * 100),
+    'rsign[phone]': getPhoneNumber("9"),
     'rsign[email]': getMailId(lName, fName, Math.random().toFixed(3) * 100),
     'rsign[whatsapp_subscription]': 0,
   };
