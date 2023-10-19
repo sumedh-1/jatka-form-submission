@@ -1,3 +1,7 @@
+// https://act.jhatkaa.org/campaigns/lift-the-ban-on-carpooling-services-in-bengaluru?utm_source=push&utm_medium=push&utm_campaign=carpool-policy
+// Open the above URL in browser and open developer tools, copy paste the below code and hit enter.
+// Note: Please change while condition from 10 to 1Lakh.
+
 function getRandomNumber(lengthArray) {
   return Math.floor(Math.random() * lengthArray);
 }
