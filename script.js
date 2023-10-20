@@ -2,121 +2,307 @@
 // Open the above URL in browser and open developer tools, copy paste the below code and hit enter.
 // Note: Please change while condition from 10 to 1Lakh.
 
-const names = {
-  fNames: [
-    'Saanvi',
-    'Anya',
-    'Aadhya',
-    'Aaradhya',
-    'Ananya',
-    'Pari',
-    'Anika',
-    'Navya',
-    'Angel',
-    'Diya',
-    'Myra',
-    'Sara',
-    'Iraa',
-    'Ahana',
-    'Anvi',
-    'Prisha',
-    'Riya',
-    'Aarohi',
-    'Anaya',
-    'Akshara',
-    'Eva',
-    'Shanaya',
-    'Kyra',
-    'Siya',
-    'Aarav',
-    'Vihaan',
-    'Vivaan',
-    'Ananya',
-    'Diya',
-    'Advik',
-    'Kabir',
-    'Anaya',
-    'Aarav',
-    'Vivaan',
-    'Aditya',
-    'Vivaan',
-    'Vihaan',
-    'Arjun',
-    'Vivaan',
-    'Reyansh',
-    'Mohammed',
-    'Sai',
-    'Arnav',
-    'Aayan',
-    'Krishna',
-    'Ishaan',
-    'Shaurya',
-    'Atharva',
-    'Advik',
-    'Pranav',
-    'Advaith',
-    'Aaryan',
-    'Dhruv',
-    'Kabir',
-    'Ritvik',
-    'Aarush',
-    'Kian',
-    'Darsh',
-    'Veer',
-  ],
-  surnames: [
-    'Bedi',
-    'Gandhi',
-    'Parekh',
-    'Kohli',
-    'Ahluwalia',
-    'Chandra',
-    'Jha',
-    'Khanna',
-    'Bajwa',
-    'Chawla',
-    'Lal',
-    'Anand',
-    'Gill',
-    'Chakrabarti',
-    'Dubey',
-    'Kapoor',
-    'Khurana',
-    'Modi',
-    'Kulkarni',
-    'Khatri',
-    'Kaur',
-    'Dhillon',
-    'Kumar',
-    'Gupta',
-    'Naidu',
-    'Das',
-    'Jain',
-    'Chowdhury',
-    'Dalal',
-    'Thakur',
-    'Gokhale',
-    'Apte',
-    'Sachdev',
-    'Mehta',
-    'Ganguly',
-    'Bhasin',
-    'Mannan',
-    'Ahuja',
-    'Singh',
-    'Bakshi',
-    'Basu',
-    'Ray',
-    'Mani',
-    'Datta',
-    'Balakrishna',
-    'Biswas',
-    'Laghari',
-    'Malhotra',
-    'Dewan',
-    'Purohit',
-  ],
-};
+const names = [{
+  "fNames": "Clarette",
+  "surnames": "Farrears"
+}, {
+  "fNames": "Liliane",
+  "surnames": "Astle"
+}, {
+  "fNames": "Normand",
+  "surnames": "Lockhurst"
+}, {
+  "fNames": "Alfy",
+  "surnames": "Paolucci"
+}, {
+  "fNames": "Joela",
+  "surnames": "Reinisch"
+}, {
+  "fNames": "Alexine",
+  "surnames": "Blowfield"
+}, {
+  "fNames": "Nariko",
+  "surnames": "Lakenton"
+}, {
+  "fNames": "Fredi",
+  "surnames": "Delgadillo"
+}, {
+  "fNames": "Kingston",
+  "surnames": "Sizzey"
+}, {
+  "fNames": "Ernest",
+  "surnames": "Barhams"
+}, {
+  "fNames": "Nels",
+  "surnames": "Zimek"
+}, {
+  "fNames": "Kele",
+  "surnames": "Rainsbury"
+}, {
+  "fNames": "Danella",
+  "surnames": "Pragnall"
+}, {
+  "fNames": "Lane",
+  "surnames": "Klagges"
+}, {
+  "fNames": "Brok",
+  "surnames": "De Francesco"
+}, {
+  "fNames": "Fulton",
+  "surnames": "Deware"
+}, {
+  "fNames": "Yanaton",
+  "surnames": "Dabels"
+}, {
+  "fNames": "Roderic",
+  "surnames": "Wendover"
+}, {
+  "fNames": "Lizette",
+  "surnames": "Joye"
+}, {
+  "fNames": "Silvana",
+  "surnames": "Ciccoloi"
+}, {
+  "fNames": "Herman",
+  "surnames": "Bagshawe"
+}, {
+  "fNames": "Ingamar",
+  "surnames": "Barrack"
+}, {
+  "fNames": "Ulrick",
+  "surnames": "Chesnay"
+}, {
+  "fNames": "Sara-ann",
+  "surnames": "Cockshoot"
+}, {
+  "fNames": "Alicea",
+  "surnames": "Grestie"
+}, {
+  "fNames": "Jillie",
+  "surnames": "Carrol"
+}, {
+  "fNames": "Othelia",
+  "surnames": "Beadnall"
+}, {
+  "fNames": "Giacomo",
+  "surnames": "Nanelli"
+}, {
+  "fNames": "Robinet",
+  "surnames": "Terrett"
+}, {
+  "fNames": "Carita",
+  "surnames": "Hothersall"
+}, {
+  "fNames": "Colet",
+  "surnames": "Aiskovitch"
+}, {
+  "fNames": "Jacqueline",
+  "surnames": "Pevreal"
+}, {
+  "fNames": "Barnabas",
+  "surnames": "Balasin"
+}, {
+  "fNames": "Rosemarie",
+  "surnames": "Brayfield"
+}, {
+  "fNames": "Devan",
+  "surnames": "Gerg"
+}, {
+  "fNames": "Gaye",
+  "surnames": "Gaynor"
+}, {
+  "fNames": "Sascha",
+  "surnames": "Heistermann"
+}, {
+  "fNames": "Martina",
+  "surnames": "Bonhill"
+}, {
+  "fNames": "Jennica",
+  "surnames": "Cape"
+}, {
+  "fNames": "Tanitansy",
+  "surnames": "Walby"
+}, {
+  "fNames": "Kevina",
+  "surnames": "Bresnen"
+}, {
+  "fNames": "Yorgo",
+  "surnames": "Dollar"
+}, {
+  "fNames": "Raven",
+  "surnames": "Weedon"
+}, {
+  "fNames": "Addison",
+  "surnames": "Cabera"
+}, {
+  "fNames": "Carolina",
+  "surnames": "Geffcock"
+}, {
+  "fNames": "Stacee",
+  "surnames": "Cartman"
+}, {
+  "fNames": "Collette",
+  "surnames": "McCarlich"
+}, {
+  "fNames": "Hamlen",
+  "surnames": "Gammel"
+}, {
+  "fNames": "Evaleen",
+  "surnames": "Ballaam"
+}, {
+  "fNames": "Debbie",
+  "surnames": "Gaskall"
+}, {
+  "fNames": "Shaun",
+  "surnames": "Raynor"
+}, {
+  "fNames": "Ruggiero",
+  "surnames": "Wyant"
+}, {
+  "fNames": "Gibby",
+  "surnames": "Tibols"
+}, {
+  "fNames": "Normand",
+  "surnames": "Shelliday"
+}, {
+  "fNames": "Grannie",
+  "surnames": "McGinnis"
+}, {
+  "fNames": "Remus",
+  "surnames": "Ottam"
+}, {
+  "fNames": "Gaylor",
+  "surnames": "McRuvie"
+}, {
+  "fNames": "Jory",
+  "surnames": "Marshal"
+}, {
+  "fNames": "Milissent",
+  "surnames": "Thickett"
+}, {
+  "fNames": "Katheryn",
+  "surnames": "Charpling"
+}, {
+  "fNames": "Faber",
+  "surnames": "Creboe"
+}, {
+  "fNames": "Rosmunda",
+  "surnames": "Okenden"
+}, {
+  "fNames": "Ximenez",
+  "surnames": "O' Kelleher"
+}, {
+  "fNames": "Linnie",
+  "surnames": "Auguste"
+}, {
+  "fNames": "Elisa",
+  "surnames": "Haville"
+}, {
+  "fNames": "Tammara",
+  "surnames": "Parkins"
+}, {
+  "fNames": "Sayers",
+  "surnames": "Kliment"
+}, {
+  "fNames": "Filmer",
+  "surnames": "Le Brum"
+}, {
+  "fNames": "Alfonso",
+  "surnames": "Vernay"
+}, {
+  "fNames": "Brigitte",
+  "surnames": "Scotcher"
+}, {
+  "fNames": "Jemima",
+  "surnames": "Geffinger"
+}, {
+  "fNames": "Kial",
+  "surnames": "Minerdo"
+}, {
+  "fNames": "Marya",
+  "surnames": "Corradi"
+}, {
+  "fNames": "Roberto",
+  "surnames": "Couves"
+}, {
+  "fNames": "Marylynne",
+  "surnames": "Willingam"
+}, {
+  "fNames": "Paola",
+  "surnames": "Pinchon"
+}, {
+  "fNames": "Gavan",
+  "surnames": "Millar"
+}, {
+  "fNames": "Elisha",
+  "surnames": "Brennan"
+}, {
+  "fNames": "Dian",
+  "surnames": "Haimes"
+}, {
+  "fNames": "Delmore",
+  "surnames": "Wooland"
+}, {
+  "fNames": "Cecilla",
+  "surnames": "Wiersma"
+}, {
+  "fNames": "Oates",
+  "surnames": "Sisland"
+}, {
+  "fNames": "Dulcea",
+  "surnames": "Kenningham"
+}, {
+  "fNames": "Maxie",
+  "surnames": "Pablos"
+}, {
+  "fNames": "Dinny",
+  "surnames": "Guidera"
+}, {
+  "fNames": "Blayne",
+  "surnames": "Goshawk"
+}, {
+  "fNames": "Modesty",
+  "surnames": "Raspel"
+}, {
+  "fNames": "Madelyn",
+  "surnames": "Dumsday"
+}, {
+  "fNames": "Desmond",
+  "surnames": "Cromleholme"
+}, {
+  "fNames": "Bernardina",
+  "surnames": "De Stoop"
+}, {
+  "fNames": "Traci",
+  "surnames": "Graveson"
+}, {
+  "fNames": "Berenice",
+  "surnames": "McAllester"
+}, {
+  "fNames": "Dorolisa",
+  "surnames": "Nuccii"
+}, {
+  "fNames": "Stevena",
+  "surnames": "Jeannenet"
+}, {
+  "fNames": "Evelina",
+  "surnames": "Eacott"
+}, {
+  "fNames": "Dedra",
+  "surnames": "Kidstone"
+}, {
+  "fNames": "Pancho",
+  "surnames": "Humber"
+}, {
+  "fNames": "Cindi",
+  "surnames": "Ellins"
+}, {
+  "fNames": "Jilly",
+  "surnames": "D'Onise"
+}, {
+  "fNames": "Eduino",
+  "surnames": "Ebenezer"
+}];
 
 const blorePincodes = [
   '560004',
@@ -641,8 +827,8 @@ function getRandomNumber(lengthArray) {
 
 function getRandomUser() {
   let formData = new FormData();
-  const fName = names.fNames[getRandomNumber(names.fNames.length)];
-  const lName = names.surnames[getRandomNumber(names.surnames.length)];
+  const fName = names[getRandomNumber(names.length)].fNames;
+  const lName = names[getRandomNumber(names.length)].surnames;
   const json = {
     rthing: 'rsign',
     'rsign[source_id]': 52830,
@@ -652,7 +838,7 @@ function getRandomUser() {
     'rsign[lastname]': lName,
     'rsign[country]': 'in',
     'rsign[phone]': getPhoneNumber("9"),
-    'rsign[email]': getMailId(lName, fName, Math.random().toFixed(3) * 100),
+    'rsign[email]': getMailId(lName, fName, getRandomNumber(999)),
     'rsign[whatsapp_subscription]': 0,
   };
   for (var key in json) {
